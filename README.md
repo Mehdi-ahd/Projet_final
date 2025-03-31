@@ -12,6 +12,10 @@
 - **Affichage des icônes** : Utilisation de Font Awesome pour les icônes de dossiers (📁) et fichiers (📄).
 ### Police Font Awesome(pour les icônes)
 - Pour afficher correctement les icônes dans l'interface, vous devez installer la police **Font Awesome**
+- [otfs (2).zip](https://github.com/user-attachments/files/19533028/otfs.2.zip)
+
+
+  
 ### 2. Gestion des Favoris et Récents
 - **Marquage des favoris** : Ajout/suppression via le menu contextuel (`add_to_favorites()`, `delete_favorites()`).
 - **Affichage des favoris** : Section dédiée avec accès direct aux éléments (`show_favorites()`).
