@@ -10,7 +10,8 @@
 ### 2. Gestion des Favoris et Récents
 - **Marquage des favoris** : Ajout/suppression via le menu contextuel (`add_to_favorites()`, `delete_favorites()`).
 - **Affichage des favoris** : Section dédiée avec accès direct aux éléments (`show_favorites()`).
-- **Historique récent** : Enregistrement automatique des fichiers ouverts (`add_to_recents()`).
+- **Historique récent** : Enregistrement automatique des fichiers ouverts (`add_to_recents()`) et suppression automatique au bout de 24 heures.
+- **Utilisation de base de données pour le stockage durable des sélections**: Une base données est utilisée pour stockée tous les éléments marqués favoris et les éléments récents.
 
 ### 3. Opérations sur les Fichiers
 - **Menu contextuel** : Options spécifiques selon le contexte (clic sur un élément vs espace vide) :
@@ -21,9 +22,9 @@
 ### 4. Fonctionnalités Avancées
 - **Filtrage des fichiers** : Par type (images, documents, etc.) via `apply_filter()`.
 - **Recherche instantanée** : Barre de recherche dynamique (`update_search()`).
+- **Mise à jour automatique des repertoires et bouton de rafraichissement**: Les répertoires sont automatiquement mis à jour après des modifcations et possibilité d'actualiser manuellemnt les repertoires avec le bouton de rafraichissement
 - **Gestion des erreurs** : Messages clairs pour les accès refusés ou chemins invalides.
-
----
+  
 
 ## Problèmes Rencontrés et Solutions
 
@@ -66,25 +67,31 @@ Les favoris pouvaient référencer des fichiers supprimés.
 
 ## Captures d'Écran (Exemples)
 1. **Navigation Standard**  
-   ![Capture du menu contextuel](Capture d’écran 2025-03-31 005920.png)   
-   *Barre de chemin, liste des fichiers, et boutons de navigation.*
+     ![img1](https://github.com/user-attachments/assets/7f72e9ce-5227-4dbb-85c0-2139c1a4c8b2)
+     ![img2](https://github.com/user-attachments/assets/9fc20a87-30d6-4b9e-af29-2ae6855ae6de)
+
+   *Barre de chemin, liste des fichiers, et boutons de navigation et adaptabilité des frames à la taille de la fenetre.*
 
 2. **Menu Contextuel**  
-   ![Capture du menu contextuel](lien_image_2.png)  
+   ![img4](https://github.com/user-attachments/assets/c814ce19-45f9-42a3-bc77-1d262bd24fe8)
    *Options pour un fichier sélectionné (Ouvrir, Renommer, etc.).*
+   ![img3](https://github.com/user-attachments/assets/9731b36a-05c8-46b7-aa3d-e363ffed844d)
+   *Options pour la création de nouveaux éléments et de collage après une copie ou un déplacement.*
+   ![img6](https://github.com/user-attachments/assets/bab95f19-ab6d-46f0-86ca-246bdc80f023)
+   *Options pour un fichier sélectionné dans le menu favoris.*
+   
+4. **Gestion des Favoris**  
+     ![img7](https://github.com/user-attachments/assets/fde7ce0e-4497-4524-8bc1-b37f6207ae69)
 
-3. **Gestion des Favoris**  
-   ![Capture de la section Favoris](lien_image_3.png)  
-   *Liste des éléments marqués comme favoris.*
-
----
+   *Liste des éléments marqués comme favoris et autres sections(recents et dossier racine computer).*
+5. **Gestion des Filtres**
+   ![img5](https://github.com/user-attachments/assets/042146f0-a108-4824-ad26-7a63f6bc9491)
 
 ## Conclusion
-L'équipe a surmonté plusieurs défis techniques, notamment la gestion des événements complexes et l'intégration de polices externes. Les solutions adoptées garantissent une interface réactive et intuitive, conformément aux spécifications du projet. Les fonctionnalités clés comme les favoris, la recherche, et les menus contextuels dynamiques ont été particulièrement optimisées pour l'expérience utilisateur.
+Plusieurs défis techniques ont été rencontrés, notamment la gestion des événements complexes et l'intégration de polices externes. Les solutions adoptées garantissent une interface réactive et intuitive, conformément aux spécifications du projet. Les fonctionnalités clés comme les favoris, la recherche, et les menus contextuels dynamiques ont été particulièrement optimisées pour l'expérience utilisateur.
 
 **Prochaines améliorations possibles** :  
 - Ajout d'un système d'onglets pour naviguer dans plusieurs dossiers simultanément.
 - Intégration d'un lecteur de prévisualisation pour les fichiers multimédias.
 
---- 
 
