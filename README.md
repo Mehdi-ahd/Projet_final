@@ -4,11 +4,11 @@
 **Lien du projet**
 [https://mehdi-ahd.github.io/Projet_final/projet_final.py](https://mehdi-ahd.github.io/Projet_final/projet_final.py)
 # Membres du groupe
- 1-)PATINDE Nolan (CDG)
- 2-) KOUNDE Déo-Gracias
- 3-) DJOKO Ezeckiel
- 4-) CHANGOTADE Jean-Jaurès
- 5-) BOURAÏMA Aslam 
+- 1-)PATINDE Nolan (CDG)
+- 2-) KOUNDE Déo-Gracias
+- 3-) DJOKO Ezeckiel
+- 4-) CHANGOTADE Jean-Jaurès
+- 5-) BOURAÏMA Aslam 
 ## Fonctionnalités Implémentées
 
 ### 1. Interface Graphique et Navigation
