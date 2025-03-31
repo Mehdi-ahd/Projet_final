@@ -1,7 +1,3 @@
-Voici une documentation complète pour votre projet d'explorateur de fichiers, structurée selon vos consignes :
-
----
-
 # Documentation du Projet : Explorateur de Fichiers avec Tkinter
 
 ## Fonctionnalités Implémentées
@@ -70,7 +66,7 @@ Les favoris pouvaient référencer des fichiers supprimés.
 
 ## Captures d'Écran (Exemples)
 1. **Navigation Standard**  
-   ![Capture de l'interface principale](lien_image_1.png)  
+   Projet_final/Capture d’écran 2025-03-31 005920.png  
    *Barre de chemin, liste des fichiers, et boutons de navigation.*
 
 2. **Menu Contextuel**  
@@ -92,4 +88,3 @@ L'équipe a surmonté plusieurs défis techniques, notamment la gestion des év�
 
 --- 
 
-Ce document peut être adapté dans votre README.md avec les captures d'écran réelles. Pour les images, utilisez des chemins relatifs ou des liens vers un dossier `screenshots/` dans votre dépôt GitHub.
