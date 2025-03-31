@@ -66,7 +66,7 @@ Les favoris pouvaient référencer des fichiers supprimés.
 
 ## Captures d'Écran (Exemples)
 1. **Navigation Standard**  
-   Projet_final/Capture d’écran 2025-03-31 005920.png  
+   ![Capture du menu contextuel](Capture d’écran 2025-03-31 005920.png)   
    *Barre de chemin, liste des fichiers, et boutons de navigation.*
 
 2. **Menu Contextuel**  
