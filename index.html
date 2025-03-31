@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+   <html>
+   <head>
+       <title>Projet Final - Fichiers</title>
+       <style>
+           body { font-family: Arial; margin: 20px; }
+           a { color: #0366d6; text-decoration: none; }
+           a:hover { text-decoration: underline; }
+           ul { list-style: none; padding: 0; }
+           li { margin: 5px 0; }
+           .file-icon { margin-right: 8px; }
+       </style>
+   </head>
+   <body>
+       <h1>📁 Contenu du projet</h1>
+       <ul id="files">
+           <!-- Les fichiers s'afficheront ici automatiquement -->
+       </ul>
+
+       <script>
+           // Liste dynamique des fichiers
+           fetch('https://api.github.com/repos/mehdi-ahd/Projet_final/contents/')
+               .then(response => response.json())
+               .then(data => {
+                   const list = document.getElementById('files');
+                   data.forEach(item => {
+                       const icon = item.type === 'dir' ? '📁' : '📄';
+                       const li = document.createElement('li');
+                       li.innerHTML = `<span class="file-icon">${icon}</span><a href="${item.html_url}" target="_blank">${item.name}</a>`;
+                       list.appendChild(li);
+                   });
+               });
+       </script>
+   </body>
+   </html>
