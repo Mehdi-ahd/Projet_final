@@ -10,7 +10,8 @@
 - **Barre de chemin interactive** : Affiche le chemin actuel avec des boutons cliquables pour chaque segment du chemin (implémentée via `update_path_display()` et `switch_to_entry()`).
 - **Navigation hiérarchique** : Double-clic sur un dossier pour y accéder, boutons Retour/Suivant (`go_back()`, `go_ahead()`).
 - **Affichage des icônes** : Utilisation de Font Awesome pour les icônes de dossiers (📁) et fichiers (📄).
-
+### Police Font Awesome(pour les icônes)
+- Pour afficher correctement les icônes dans l'interface, vous devez installer la police **Font Awesome**
 ### 2. Gestion des Favoris et Récents
 - **Marquage des favoris** : Ajout/suppression via le menu contextuel (`add_to_favorites()`, `delete_favorites()`).
 - **Affichage des favoris** : Section dédiée avec accès direct aux éléments (`show_favorites()`).
