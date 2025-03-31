@@ -1,4 +1,8 @@
-Documentation du Projet : Explorateur de Fichiers avec Tkinter
+Voici une documentation complète pour votre projet d'explorateur de fichiers, structurée selon vos consignes :
+
+---
+
+# Documentation du Projet : Explorateur de Fichiers avec Tkinter
 
 ## Fonctionnalités Implémentées
 
@@ -66,36 +70,26 @@ Les favoris pouvaient référencer des fichiers supprimés.
 
 ## Captures d'Écran (Exemples)
 1. **Navigation Standard**  
-   *Gestion de l'adaptabilité des frames à la taille de la fenetre.*
-   Capture d’écran 2025-03-31 005920.png
-   Capture d’écran 2025-03-31 010028.png
+   ![Capture de l'interface principale](lien_image_1.png)  
+   *Barre de chemin, liste des fichiers, et boutons de navigation.*
 
-3. **Menu Contextuel**  
-  
+2. **Menu Contextuel**  
+   ![Capture du menu contextuel](lien_image_2.png)  
    *Options pour un fichier sélectionné (Ouvrir, Renommer, etc.).*
-   Capture d’écran 2025-03-31 010120.png
-   *Options de creation de nouveau éléments et collage apres copie ou déplacement.*
-   Capture d’écran 2025-03-31 010157.png
-   *Menu contextuel des favoris.*
-   Capture d’écran 2025-03-31 010528.png
 
-5. **Gestion des Favoris**
-  
+3. **Gestion des Favoris**  
+   ![Capture de la section Favoris](lien_image_3.png)  
    *Liste des éléments marqués comme favoris.*
-   Capture d’écran 2025-03-31 010613.png
-   
-
-7. **Gestion du Filtre**
-   *Filtre suivant l'extension/type des fichiers.*
-   Capture d’écran 2025-03-31 010359.png
 
 ---
 
 ## Conclusion
-Plusieurs défis techniques ont été rencontrés , notamment la gestion des événements complexes et l'intégration de polices externes. Les solutions adoptées garantissent une interface réactive et intuitive, conformément aux spécifications du projet. Les fonctionnalités clés comme les favoris, la recherche, et les menus contextuels dynamiques ont été particulièrement optimisées pour l'expérience utilisateur.
+L'équipe a surmonté plusieurs défis techniques, notamment la gestion des événements complexes et l'intégration de polices externes. Les solutions adoptées garantissent une interface réactive et intuitive, conformément aux spécifications du projet. Les fonctionnalités clés comme les favoris, la recherche, et les menus contextuels dynamiques ont été particulièrement optimisées pour l'expérience utilisateur.
 
 **Prochaines améliorations possibles** :  
 - Ajout d'un système d'onglets pour naviguer dans plusieurs dossiers simultanément.
 - Intégration d'un lecteur de prévisualisation pour les fichiers multimédias.
 
 --- 
+
+Ce document peut être adapté dans votre README.md avec les captures d'écran réelles. Pour les images, utilisez des chemins relatifs ou des liens vers un dossier `screenshots/` dans votre dépôt GitHub.
